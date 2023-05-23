@@ -4,9 +4,8 @@ import img1 from"./images/img1.png";
 function App() {
   return (
     <div className="App" >
-      <div class="flex-container">
-        <div class="flex-child">
-        <div class="info1">
+      <div class="flex-container" id="flex">
+        <div class="flex-child" id="c1">
             <h3>CHOOSE FROM DIFFERENT STORES</h3>
             <h1>Laundry Stores Near You</h1>
             <dl>
@@ -17,21 +16,19 @@ function App() {
               <dt>FEATURE NAME</dt>
               <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
             </dl>
-          </div>
         </div>
-        <div class="flex-child">
+        <div class="flex-child" id="c2">
           <div class="img1">
             <img src={img1}  alt="phone app with visa card"></img>
           </div>
         </div>
       </div>
-      <div class="flex-container">
-        <div class="flex-child">
+        <div class="flex-child" id="c3">
           <div class="img2">
             <img src={img2}  alt="phone app with visa card"></img>
           </div>
         </div>
-        <div class="flex-child">
+        <div class="flex-child" id="c4">
           <div class="info2">
             <h3>PAYMENT</h3>
             <h2>Quick Payment</h2>
@@ -44,8 +41,7 @@ function App() {
             </ul>
           </div>
         </div>
-        </div>
-    </div>
+      </div>
   );
 }
 

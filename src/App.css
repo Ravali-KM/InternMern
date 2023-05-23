@@ -16,6 +16,25 @@
 } 
 }
 
+@media only screen and (max-width: 600px){
+  #flex {
+    display: flex;
+    flex-direction: column;
+  }
+  #c1{
+    order:1;
+  }
+  #c2{
+    order:2;
+  }
+  #c4{
+    order:3;
+  }
+  #c3{
+    order:4;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
