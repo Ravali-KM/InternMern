@@ -1,5 +1,19 @@
 .App {
-  text-align: center;
+  margin:auto;
+}
+
+@media only screen and (min-width: 600px){
+  .flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
 }
 
 .App-logo {
