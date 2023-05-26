@@ -5,7 +5,7 @@ import PlayStore from "../assets/PlayStore.png";
 
 const RoundedRectangle = () => {
   return (
-    <div className="container">
+    <div className="container" class='overlay-box'>
       <div className="rounded-rectangle">
       <h1 className="heading">Book Our Services By<br></br>Downloading Apps</h1>
       <div className="buttons">

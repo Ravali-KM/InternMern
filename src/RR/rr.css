@@ -4,6 +4,15 @@
   align-items: center;
   height: 100vh;
   margin-bottom: 10px;
+  padding:0%;
+}
+
+.overlay-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0%;
+
 }
 
 .rounded-rectangle {
@@ -72,3 +81,37 @@ button img {
 }
 
 
+@media (max-width: 600px) {
+  .rounded-rectangle {
+    max-width: 500px;
+  }
+
+  .heading {
+    color: white;
+    position: absolute;
+    font-size: larger;
+    left: 20px; /* Adjust this value as needed */
+    top: 20px; /* Adjust this value as needed */
+  }
+  
+  .quarter-ellipse {
+    height: 150px;
+    width: 50%;
+  }
+  
+  .buttons {
+    display: flex;
+    height: 10px;
+    width:20px;
+    align-items: center;
+    justify-content: center;
+    color: #6759FF;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+}
