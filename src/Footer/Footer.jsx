@@ -1,5 +1,9 @@
 import React from 'react';
 import './Footer.css';
+import twitter from "../assets/twitter.png";
+import facebook from "../assets/facebook.png";
+import linkedin from "../assets/linkedin.png";
+import Subvector from '../assets/SubVector.png'
 
 const Footer = () => {
   return (
@@ -11,14 +15,15 @@ const Footer = () => {
         <div class="email-input-container">
             <input type="email" class="email-input" placeholder="Email Address" />
             <button class="subscribe-button">
-                <img src="src/assets/SubscribeVector.jpeg" alt="Subscribe" />
+
+                <img src={Subvector} alt="Subscribe" />
             </button>
         </div>
 
         <div className="social-media">
-          <img src="src/assets/facebook.jpeg"  align="left"></img>
-          <img src="src/assets/linkedin.jpeg" align="left"></img>
-          <img src="src/assets/twitter.jpeg" align="left"></img>
+          <img src={facebook}  align="left"></img>
+          <img src={linkedin} align="left"></img>
+          <img src={twitter} align="left"></img>
         </div>
       </div>
       <div className="footer-column">
@@ -51,6 +56,7 @@ const Footer = () => {
       </div>
       <br></br>
       <br></br>
+      <div className="footer-line"></div>
       <div className="footer-copy">&copy;2022 Laundry Shop, All Rights Reserved.</div>
     </footer>
   );
