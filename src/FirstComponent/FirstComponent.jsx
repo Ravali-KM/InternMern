@@ -12,7 +12,8 @@ const MyComponent = () => {
           height: "743px",
           left: "0px",
           top: "0px",
-          backgroundImage: `url(${bg1})`
+          backgroundImage: `url(${bg1})`,
+          alignSelf:'center'
         }}
       ></div>
 

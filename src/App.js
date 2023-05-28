@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Body from './Body/Body';
 import Footer from './Footer/Footer';
 import RR from './RR/rr';
 import React from 'react';
@@ -24,9 +23,6 @@ function App() {
       </div>
       <div className="component">
         <Componentfour/>
-      </div>
-      <div className="component">
-        <Body/>
       </div>
       <div className="component">
         <RR/>
