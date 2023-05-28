@@ -1,9 +1,14 @@
 .container {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 10px;
+  padding:0%;
 }
 
 h1 {
-  position: absolute;
+  /* position: absolute; */
   width: 601px;
   height: 50px;
   left: 420px;
@@ -19,7 +24,7 @@ h1 {
 }
 
 p.text-muted {
-  position: absolute;
+  /* position: absolute; */
   width: 432px;
   height: 24px;
   left: 504px;
@@ -35,7 +40,7 @@ p.text-muted {
 }
 
 .box {
-  position: absolute;
+  /* position: absolute; */
   width: 270px;
   height: 254px;
   background: #2D69F0;
