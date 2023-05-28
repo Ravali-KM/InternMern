@@ -9,9 +9,8 @@ import icon2 from"../images/Icon2.png";
 import icon3 from"../images/Icon3.png";
 const comp3 = () => {
     return (
-    <div className="Comp3" >
+    <div className="Comp3" id="flex">
         <div class="flex-container" className="container" id="flex">
-            <br/>
             <div class="flex-child" className="first-row" id="hc0">
                 <p className="subh">Features</p>
             </div>
