@@ -2,39 +2,6 @@
   margin:auto;
 }
 
-@media only screen and (min-width: 600px){
-  .flex-container {
-  display: flex;
-}
-
-.flex-child {
-  flex: 1;
-}  
-
-.flex-child:first-child {
-  margin-right: 20px;
-} 
-}
-
-@media only screen and (max-width: 600px){
-  #flex {
-    display: flex;
-    flex-direction: column;
-  }
-  #c1{
-    order:1;
-  }
-  #c2{
-    order:2;
-  }
-  #c4{
-    order:3;
-  }
-  #c3{
-    order:4;
-  }
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
