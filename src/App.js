@@ -7,11 +7,12 @@ import React from 'react';
 import Bodycomp from './Bodycomp/comp3';
 import Componentfour from './Componentfour/Component4';
 import ComponentOne from './ComponentOne/ComponentOne';
-
+import FirstComponent from './FirstComponent/FirstComponent';
 
 function App() {
   return (
     <div className="App">
+      <FirstComponent/>
       <ComponentOne/>
       <Bodycomp/>
       <Componentfour/> 

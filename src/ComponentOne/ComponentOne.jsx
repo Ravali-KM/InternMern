@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import arrow from '../Images/arrow.png';
-import bullet from '../Images/bullet.png';
-import arrowtwo from '../Images/arrowtwo.png';
-import bullettwo from '../Images/bullettwo.png';
-import arrowthree from '../Images/arrowthree.png';
-import bulletthree from '../Images/bulletthree.png';
-import arrowfour from '../Images/arrowfour.png';
-import bulletfour from '../Images/bulletfour.png';
+import arrow from '../images/arrow.png';
+import bullet from '../images/bullet.png';
+import arrowtwo from '../images/arrowtwo.png';
+import bullettwo from '../images/bullettwo.png';
+import arrowthree from '../images/arrowthree.png';
+import bulletthree from '../images/bulletthree.png';
+import arrowfour from '../images/arrowfour.png';
+import bulletfour from '../images/bulletfour.png';
 
 const ComponentOne = () => {
   const headingStyles = {
