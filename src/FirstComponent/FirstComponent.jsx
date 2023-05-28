@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-
+import bg1 from "../images/comp1bg.png";
 const MyComponent = () => {
   return (
     <div className="position-relative">
@@ -12,44 +12,7 @@ const MyComponent = () => {
           height: "743px",
           left: "0px",
           top: "0px",
-          background: "#B8DDE3",
-        }}
-      ></div>
-
-      {/* Vector */}
-      <div
-        className="position-absolute"
-        style={{
-          width: "577.69px",
-          height: "468.45px",
-          left: "-519px",
-          top: "274.05px",
-          background: "#70C7C6",
-          transform: "matrix(1, -0.02, 0.02, 1, 0, 0)",
-        }}
-      ></div>
-
-      {/* Mask group */}
-      <div
-        className="position-absolute"
-        style={{
-          width: "137px",
-          height: "743px",
-          left: "0px",
-          top: "0px",
-        }}
-      ></div>
-
-      {/* Second Vector */}
-      <div
-        className="position-absolute"
-        style={{
-          width: "577.69px",
-          height: "468.45px",
-          left: "1128px",
-          top: "150.62px",
-          background: "#DD246E",
-          transform: "matrix(1, -0.02, 0.02, 1, 0, 0)",
+          backgroundImage: `url(${bg1})`
         }}
       ></div>
 

@@ -12,14 +12,32 @@ import FirstComponent from './FirstComponent/FirstComponent';
 function App() {
   return (
     <div className="App">
-      <FirstComponent/>
-      <ComponentOne/>
-      <Bodycomp/>
-      <Componentfour/> 
-      <Body/>
-      <RR/>
-      <Footer/>
+      <div className='container'>
+      <div className="component">
+        <FirstComponent/>
+      </div>
+      <div className="component">
+        <ComponentOne/>
+      </div>
+      <div className="component">
+        <Bodycomp/>
+      </div>
+      <div className="component">
+        <Componentfour/>
+      </div>
+      <div className="component">
+        <Body/>
+      </div>
+      <div className="component">
+        <RR/>
+      </div>
+      <div className="component">
+        <Footer/>
+      </div>
     </div>
+  </div>
+
+
   );
 }
 

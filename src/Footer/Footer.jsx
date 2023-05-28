@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import twitter from "../assets/twitter.png";
-import facebook from "../assets/facebook.png";
-import linkedin from "../assets/linkedin.png";
-import Subvector from "../assets/SubVector.png";
+import twitter from "../images/twitter.png";
+import facebook from "../images/facebook.png";
+import linkedin from "../images/linkedin.png";
+import Subvector from "../images/SubVector.png";
 
 
 

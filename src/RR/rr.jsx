@@ -1,7 +1,7 @@
 import React from 'react';
 import './rr.css'; // Import CSS file for custom styles
-import AppStore from "../assets/AppStore.png";
-import PlayStore from "../assets/PlayStore.png";
+import AppStore from "../images/AppStore.png";
+import PlayStore from "../images/PlayStore.png";
 
 const RoundedRectangle = () => {
   return (
