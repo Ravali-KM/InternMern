@@ -6,11 +6,13 @@ import RR from './RR/rr';
 import React from 'react';
 import Bodycomp from './Bodycomp/comp3';
 import Componentfour from './Componentfour/Component4';
+import ComponentOne from './ComponentOne/ComponentOne';
 
 
 function App() {
   return (
     <div className="App">
+      <ComponentOne/>
       <Bodycomp/>
       <Componentfour/> 
       <Body/>

@@ -1,0 +1,79 @@
+.container {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  width: 601px;
+  height: 50px;
+  left: 420px;
+  top: 814px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #0A1C1F;
+}
+
+p.text-muted {
+  position: absolute;
+  width: 432px;
+  height: 24px;
+  left: 504px;
+  top: 884px;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #0A1C1F;
+  opacity: 0.5;
+}
+
+.box {
+  position: absolute;
+  width: 270px;
+  height: 254px;
+  background: #2D69F0;
+  box-shadow: 0px 0px 20px rgba(119, 119, 119, 0.1);
+  border-radius: 8px;
+}
+
+.box:nth-child(2) {
+  left: 436px;
+}
+
+.box:nth-child(3) {
+  left: 736px;
+}
+
+.box:nth-child(4) {
+  left: 1035px;
+}
+
+.logo {
+  float: left;
+}
+
+.box h1 {
+  color: white;
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.box p1 {
+  color: white;
+}
+
+.text {
+  color: white;
+}
+
+.icon img {
+  vertical-align: middle;
+}
