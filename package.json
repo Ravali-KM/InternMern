@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "intern",
   "version": "0.1.0",
   "private": true,
@@ -37,15 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "bootstrap": "^5.2.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
->>>>>>> origin/Siswina
   }
 }
