@@ -1,0 +1,128 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* .component-four {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #C4C4C4;
+  } */
+  
+  .rectangle-1276 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .design {
+    /* position: absolute; */
+    top: 10%;
+    left: 4.2%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #010101;
+  }
+  
+  .user-friendly-app {
+    /* position: absolute; */
+    top: 15%;
+    left: 4.5%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #010101;
+  }
+  
+  .lorem-ipsum {
+    /* position: absolute; */
+    top: 20%;
+    left: -12%;
+    width: 60%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #010101;
+  }
+  
+  .rectangle-17 {
+    /* position: absolute; */
+    top: 25%;
+    left: 5%;
+    width: 600px;
+    height: 200px;
+  }
+  
+  .rectangle-3 {
+    /* position: absolute; */
+    top: 25%;
+    left: calc(8% + 500px);
+    width: 600px;
+    height: 200px;
+  }
+  
+  .store-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #6759FF;
+    border-radius: 4px;
+    font-size: 60px;
+  }
+  
+  .apple-store {
+    border-color: #6759FF;
+  }
+  
+  .play-store {
+    border-color: #6759FF;
+  }
+  
+  .apple-image {
+    transform: scale(4);
+    position: absolute;
+    top: 31.5%;
+    left: calc(5% + 10px);
+    width: 100px;
+    height: 100px;
+  }
+  
+  .play-image {
+    transform: scale(4);
+    position: absolute;
+    top: 31.5%;
+    left: calc(8.5% + 500px);
+    width: 100px;
+    height: 100px;
+  }
+  
+  .laundry-image {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .laundry-image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }

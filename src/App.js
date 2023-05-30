@@ -4,7 +4,7 @@ import Footer from './Footer/Footer';
 import RR from './RR/rr';
 import React from 'react';
 import Bodycomp from './Bodycomp/comp3';
-import Componentfour from './Componentfour/Component4';
+import Componentfour from './Componentfour/Componentfour';
 import ComponentOne from './ComponentOne/ComponentOne';
 import FirstComponent from './FirstComponent/FirstComponent';
 
