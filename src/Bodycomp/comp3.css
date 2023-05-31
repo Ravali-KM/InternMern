@@ -16,7 +16,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         /* height: 100%; */
-        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
       
     .first-column {
@@ -130,10 +130,12 @@ ul li::marker{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    padding-left: 5%;
     /* identical to box height, or 156% */
     /* letter-spacing: 0.16em; */
     text-transform: uppercase;
     color: #6759FF;
+    text-align:left;
 }
 
 .hd{
@@ -167,6 +169,7 @@ ul li::marker{
     text-transform: capitalize;
     color: #000000;
     opacity: 0.5;
+    padding:5%;
 }
 
 .esy{

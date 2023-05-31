@@ -1,20 +1,22 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import bg1 from "../images/comp1bg.png";
+
 const MyComponent = () => {
   return (
-    <div className="position-relative">
+    <div className="w-100" style={{ overflow: "hidden" }}>
       {/* Rectangle 1271 */}
       <div
-        className="position-absolute"
-        style={{
-          width: "1440px",
-          height: "743px",
-          left: "0px",
-          top: "0px",
-          backgroundImage: `url(${bg1})`,
-          alignSelf:'center'
-        }}
+         className="position-absolute"
+         style={{
+           width: "1400px",
+           height: "743px",
+           left: "0px",
+           top: "0px",
+           backgroundImage: `url(${bg1})`,
+           alignSelf:'center',
+           marginLeft:'0%'
+         }}
       ></div>
 
       {/* Logo Space */}
@@ -334,7 +336,6 @@ const MyComponent = () => {
       >
         Name
       </div>
-
       {/* user_circle_outline_24 */}
       <div
         className="position-absolute"

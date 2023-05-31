@@ -1,0 +1,684 @@
+.full-width {
+    width: 100%;
+  }
+  
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .bg-image {
+    width: 100%;
+    height: 743px;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    background-image: url('../images/comp1bg.png');
+    background-position: center;
+  }
+  
+  .logo {
+    width: 230px;
+    height: 50px;
+    left: 136px;
+    top: 58px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #010101;
+  }
+  
+  .nav-item {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0e1133;
+  }
+  
+  .home {
+    width: 46px;
+    height: 23px;
+    left: 657px;
+    top: 70px;
+  }
+  
+  .about-us {
+    width: 80px;
+    height: 23px;
+    left: 738px;
+    top: 70px;
+  }
+  
+  .courses {
+    width: 61px;
+    height: 23px;
+    left: 840px;
+    top: 70px;
+  }
+  
+  .mock-tests {
+    width: 87px;
+    height: 23px;
+    left: 933px;
+    top: 70px;
+  }
+  
+  .blog {
+    width: 42px;
+    height: 23px;
+    left: 1040px;
+    top: 70px;
+  }
+  
+  
+  .contact-us-button {
+    position: absolute;
+    width: 174.5px;
+    height: 35px;
+    left: 1100px;
+    top: 70px;
+    background: #6759FF;
+    border-radius: 8px;
+  }
+  
+  .contact-us-button-text {
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    left: 41.5px;
+    top: 13px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .text {
+    position: absolute;
+    width: 526px;
+    height: 215px;
+    left: 110px;
+    top: 260px;
+    right:777px;
+    bottom:258px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    text-transform: capitalize;
+    color: #0E1133;
+  }
+  
+  .sub-text {
+    position: absolute;
+    width: 511px;
+    height: 26px;
+    left: 137px;
+    top: 514px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    color: #010101;
+  }
+  
+  .get-started-button {
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    left: 137px;
+    top: 579px;
+    background: #6759FF;
+    border-radius: 8px;
+  }
+  
+  .get-started-button-text {
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 46px;
+    top: 13px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  
+  .rectangle-2827 {
+    position: absolute;
+    width: 557px;
+    height: 379px;
+    left: 748px;
+    top: 260px;
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+  .rectangle-2829 {
+    position: absolute;
+    width: 236px;
+    height: 40px;
+    left: 786px;
+    top: 290px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(9, 48, 81, 0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .name {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    left: 85px;
+    top: 42px;
+    right:434px;
+    bottom:321px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  
+  
+  .rectangle2830 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 236px;
+    height: 40px;
+    left: 1036px;
+    top: 290px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(9, 48, 81, 0.4);
+    border-radius: 5px;
+  }
+  
+  .phone-number {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 1084px;
+    top: 302px;
+    bottom:425px;
+    right:260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  .rectangle-2828 {
+    position: absolute;
+    width: 557px;
+    height: 379px;
+    left: 748px;
+    top: 260px;
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+  
+  
+  .address {
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 833px;
+    top: 429px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  /* Button */
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    position: absolute;
+    width: 261px;
+    height: 10px;
+    left: 896px;
+    top: 546px;
+    background: #6759FF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  /* Book Service */
+  .book-service {
+    position: absolute;
+    width: 132px;
+    height: 20px;
+    left: 51px;
+    top: 15px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust the styles for mobile view */
+  
+    /* Group 1000004722 */
+  .position {
+    position: absolute;
+    width: 375px;
+    height: 921px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  /* Vector */
+  .vector {
+    position: absolute;
+    width: 577.69px;
+    height: 468.45px;
+    left: 347px;
+    top: 60.62px;
+    background: #DD246E;
+    transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+  }
+  
+  /* Logo Space */
+  .logo-space {
+    position: absolute;
+    width: 144px;
+    height: 30px;
+    left: 20px;
+    top: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #010101;
+  }
+  
+  /* menu_outline_24 */
+  .menu-outline {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 333px;
+    top: 31px;
+  }
+  
+  /* Get the best Laundry Service at your door step */
+  .laundry-service {
+    position: absolute;
+    width: 307px;
+    height: 135px;
+    left: 20px;
+    top: 122px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    /* or 129% */
+    text-transform: capitalize;
+    /* col-6 */
+    color: #0E1133;
+  }
+  
+  /* Rectangle 2837 */
+  .rectangle-2837 {
+    position: absolute;
+    width: 335px;
+    height: 446px;
+    left: 20px;
+    top: 420px;
+    /* #FFFFFF */
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+  
+  /* Rectangle 2834 */
+  .rectangle-2834 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 37px;
+    top: 440px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(9, 48, 81, 0.4);
+    border-radius: 5px;
+  }
+  
+  /* Name */
+  .name {
+    position: absolute;
+    width: 38px;
+    height: 16px;
+    left: 84px;
+    top: 452px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  
+  /* user_circle_outline_24 */
+  .user-circle-outline {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 450px;
+  }
+  
+  /* Rectangle 2835 */
+  .rectangle-2835 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 37px;
+    top: 490px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(9, 48, 81, 0.4);
+    border-radius: 5px;
+  }
+  
+  /* Phone Number */
+  .phone-number {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 84px;
+    top: 502px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  
+  /* phone_outline_24 call */
+  .phone-outline {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 500px;
+  }
+  
+  /* Rectangle 2833 */
+  .rectangle-2833 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 302px;
+    height: 45px;
+    left: 37px;
+    top: 540px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(9, 48, 81, 0.4);
+    border-radius: 5px;
+  }
+  
+  /* No of Clothes */
+  .no-of-clothes {
+    position: absolute;
+    width: 88px;
+    height: 16px;
+    left: 84px;
+    top: 554px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  
+  /* t-shirt_outline_24 */
+  .t-shirt-outline {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 50px;
+    top: 551px;
+  }
+  
+  /* Rectangle 2836 */
+  .rectangle-2836 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 302px;
+    height: 175px;
+    left: 37px;
+    top: 595px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(9, 48, 81, 0.4);
+    border-radius: 5px;
+  }
+  
+  /* Address */
+  .address {
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 84px;
+    top: 609px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.0125em;
+    color: #777777;
+  }
+  
+  /* hotel-line */
+  .hotel-line {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 609px;
+  }
+  
+  /* Group 1000004726 */
+  .group-1000004726 {
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 57px;
+    top: 792px;
+  }
+  
+  /* Book laundry service with our app in just few & easy steps */
+  .book-laundry-service {
+    position: absolute;
+    width: 272px;
+    height: 38px;
+    left: 20px;
+    top: 265px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #010101;
+  }
+  
+  /* Frame 1000004724 */
+  .frame-1000004724 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    left: 20px;
+    top: 320px;
+    border-radius: 8px;
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 480px) {
+    /* Adjust the styles for mobile view */
+    .position {
+      width: 100%;
+      height: auto;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+    
+    .vector {
+      display: none;
+    }
+    
+    .logo-space {
+      font-size: 20px;
+    }
+    
+    .menu-outline {
+      display: none;
+    }
+    
+    .laundry-service {
+      width: 100%;
+      font-size: 25px;
+      line-height: 35px;
+      text-align: center;
+      top: 80px;
+    }
+    
+    .rectangle-2837 {
+      width: 90%;
+      height: 400px;
+      left: 5%;
+    }
+    
+    .rectangle-2834 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .name {
+      left: 10%;
+    }
+    
+    .user-circle-outline {
+      left: 5%;
+    }
+    
+    .rectangle-2835 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .phone-number {
+      left: 10%;
+    }
+    
+    .phone-outline {
+      left: 5%;
+    }
+    
+    .rectangle-2833 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .no-of-clothes {
+      left: 10%;
+    }
+    
+    .t-shirt-outline {
+      left: 5%;
+    }
+    
+    .rectangle-2836 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .address {
+      left: 10%;
+    }
+    
+    .hotel-line {
+      left: 5%;
+    }
+    
+    .group-1000004726 {
+      width: 90%;
+      left: 5%;
+    }
+    
+    .book-laundry-service {
+      width: 90%;
+      left: 5%;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    
+    .frame-1000004724 {
+      width: 90%;
+      left: 5%;
+    }
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

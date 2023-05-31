@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-      <div className="component">
+      <div className="component" style={{paddingLeft:'0%'}}>
         <FirstComponent/>
       </div>
       <div className="component">
         <ComponentOne/>
       </div>
-      <div className="component" style={{ marginTop: '2%' }}>
+      <div className="component" style={{ marginTop: '4%' }}>
         <Bodycomp/>
       </div>
       <div className="component">
