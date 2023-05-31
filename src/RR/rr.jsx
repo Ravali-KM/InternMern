@@ -2,19 +2,18 @@ import React from 'react';
 import './rr.css'; // Import CSS file for custom styles
 import AppStore from "../images/AppStore.png";
 import PlayStore from "../images/PlayStore.png";
+import RRBg from "../images/RRBg.png"
+
 
 const RoundedRectangle = () => {
   return (
     <div className="container" class='overlay-box'>
-      <div className="rounded-rectangle">
+      <div className="rounded-rectangle" style={{ backgroundImage: `url(${RRBg})` }}>
       <h1 className="heading">Book Our Services By<br></br>Downloading Apps</h1>
-      <div className="buttons">
+      <div className="button-container">
           <button className="appstore-button">
-            <img src={AppStore}></img> Apple Store
+            <img src={AppStore} alt="App Store" /> Apple Store
           </button>
-        </div>
-        <div className="quarter-ellipse"></div>
-        <div className="quarter-ellipse">
           <button className="playstore-button">
             <img src={PlayStore} alt="Play Store" /> Play Store
           </button>
@@ -24,4 +23,4 @@ const RoundedRectangle = () => {
   );
 };
 
-export default RoundedRectangle;
+export default RoundedRectangle;  

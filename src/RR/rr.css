@@ -19,7 +19,7 @@
   width: 1000px;
   height: 150px;
   background-color: #1E3661;
-  border-radius: 10px;
+  border-radius: 5px;
   position: relative;
   
 }
@@ -32,58 +32,51 @@
   top: 20px; /* Adjust this value as needed */
 }
 
-.quarter-ellipse {
+.button-container {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 150px;
-  background-color: #6759FF;
-  border-top-right-radius: 250px;
-  position: absolute;
-  right: 0;
-
-  top: 0;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 50%);
-  transform: rotate(-180deg);
+  margin-top: 50px;
+  margin-right: 150px;
 }
 
-.buttons {
-  align-items: center;
-  position: absolute;
-  right: 300px; /* Adjust this value as needed */
-  bottom: 53px; /* Adjust this value as needed */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #6759FF;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
+.appstore-button,
 .playstore-button {
-  transform: rotate(180deg); /* Add this line to rotate the Play Store button */
-  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  height: 45px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 30px; 
+  border-radius: 5px; /* Add this line to make the buttons rounded */
 }
 
-button img {
-  margin-right: 5px;
-}
+
+
+
+
+
+
+
 
 
 @media (max-width: 600px) {
   .rounded-rectangle {
-    max-width: 500px;
+    max-width: 550px;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-bottom: 20px;
+    position: relative;
+    height: 160px;
+    background-image: url('../images/mobileRRBg.png'); /* Add this line to set the background image */
+
+  }
+    
   }
 
   .heading {
@@ -94,25 +87,28 @@ button img {
     top: 20px; /* Adjust this value as needed */
   }
   
-  .quarter-ellipse {
-    height: 150px;
-    width: 50%;
+  .button-container {
+    position: absolute;
+    bottom: 10px; /* Adjust this value as needed */
+    right: 10px; /* Adjust this value as needed */
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 150px;
   }
-  
-  .buttons {
-    display: flex;
-    height: 10px;
-    width:20px;
-    align-items: center;
-    justify-content: center;
-    color: #6759FF;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-bottom: 0%;
-    cursor: pointer;
-  }
+
+  .appstore-button,
+.playstore-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  height: 40px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100px;
+  margin-right: 30px; 
+  border-radius: 5px; /* Add this line to make the buttons rounded */
 }
