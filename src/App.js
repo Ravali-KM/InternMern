@@ -12,22 +12,22 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-      <div className="component" style={{paddingLeft:'0%'}}>
+      <div className="component" style={{paddingLeft:'0%', marginBottom: '4%', padding:'0%'}}>
         <FirstComponent/>
       </div>
-      <div className="component">
+      <div className="component" style={{ marginBottom: '4%', marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
         <ComponentOne/>
       </div>
-      <div className="component" style={{ marginTop: '4%' }}>
+      <div className="component" style={{ marginTop: '0%', marginRight:'0%', marginLeft: '0%', padding:'0%' }}>
         <Bodycomp/>
       </div>
-      <div className="component">
+      <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%' }}>
         <Componentfour/>
       </div>
-      <div className="component">
+      <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
         <RR/>
       </div>
-      <div className="component">
+      <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
         <Footer/>
       </div>
     </div>
