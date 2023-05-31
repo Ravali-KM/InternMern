@@ -16,7 +16,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         /* height: 100%; */
-        margin-bottom: 3%;
+        margin-bottom: 5%;
     }
       
     .first-column {
@@ -105,6 +105,12 @@
         flex-direction: column;
         padding-left: 3%;
         padding: 2%;
+        /* margin-top: 85%;
+        margin-bottom: 10%; */
+    }
+    .Comp3{
+        margin-top: 200%;
+        margin-bottom: 10%;
     }
 }
 
@@ -121,7 +127,7 @@ ul li::marker{
 .subh{
     font-family: 'Red Hat Display';
     font-style: normal;
-    /* font-weight: 500; */
+    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     /* identical to box height, or 156% */
