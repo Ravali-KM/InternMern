@@ -18,7 +18,7 @@ function App() {
       <div className="component">
         <ComponentOne/>
       </div>
-      <div className="component">
+      <div className="component" style={{ marginTop: '2%' }}>
         <Bodycomp/>
       </div>
       <div className="component">

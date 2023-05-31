@@ -4,7 +4,7 @@
   background-color: #C4C4C4;
   background-image: url('../images/laundry.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   min-width: 100vh;
 }
