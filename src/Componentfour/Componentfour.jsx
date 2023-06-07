@@ -15,14 +15,14 @@ const Componentfour = () => {
           <br />
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
-        <div className="button-container">
+        {/* <div className="button-container">
           <button className="appstore-button">
             <img src={Apple} alt="Apple" /> Apple Store
           </button>
           <button className="playstore-button">
             <img src={Play} alt="Play" /> Play Store
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
