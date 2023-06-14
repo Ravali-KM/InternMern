@@ -4,9 +4,8 @@
   background-color: #C4C4C4;
   background-image: url('../images/laundry.png');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  min-width: 100vh;
 }
 
 .component-four {
@@ -14,16 +13,16 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px;
+  padding: 0%;
 }
 
 .design {
   font-family: 'Red Hat Display';
   font-style: normal;
-  margin-top: 2vh;
-  margin-left: 5vw;
+  margin-top: 5%;
+  margin-left: 10%;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
   color: #010101;
@@ -32,11 +31,11 @@
 .user-friendly-app {
   font-family: 'Rubik';
   font-style: normal;
-  margin-top: 1vh;
-  margin-left: 5vw;
+  margin-top: 1%;
+  margin-left: 10%;
   font-weight: 700;
-  font-size: 3vw;
-  line-height: 1.5;
+  font-size: 34px;
+  line-height: 100%;
   text-transform: capitalize;
   color: #010101;
 }
@@ -44,11 +43,11 @@
 .lorem-ipsum {
   font-family: 'Red Hat Display';
   font-style: normal;
-  margin-top: 1vh;
-  margin-left: 5vw;
+  margin-top: 5%;
+  margin-left: 10%;
   font-weight: 500;
-  font-size: 1vw;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 100%;
   text-transform: capitalize;
   color: #010101;
 }
@@ -57,9 +56,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 5vh;
-  margin-right: 5vw;
-  margin-left: 5vw;
+  margin-top: 30px;
+  margin-right: 170px;
 }
 
 .appstore-button,
@@ -67,24 +65,66 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 0%;
   border: none;
-  height: 3vw;
-  margin-left: 0vw;
+  height: 45px;
+  width: 150px;
+  margin-left: 10px;
   background-color: #ffffff;
   color: #000000;
-  font-size: 1vw;
+  font-size: 80%;
   cursor: pointer;
-  margin-right: 2vw;
-  border-radius: 5px; /* Add this line to make the buttons rounded */
-}
-
-.appstore-button img,
-.playstore-button img {
-  width: 1vw; /* Adjust the width as needed */
-  height: 1vw; /* Adjust the height as needed */
+  border-radius: 5%;
 }
 
 .group-image {
   display: none;
 }
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+  .flex-container {
+    background-image: url('../images/Group.png');
+    background-size: 100%;
+    position: relative;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+  }
+
+  /* .component-four {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0%;
+  } */
+
+  .design {
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .user-friendly-app {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .lorem-ipsum {
+    font-size: 12px;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .button-container {
+    display: none;
+  }
+}
+
+  /* .group-image {
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+  } */
