@@ -1,10 +1,9 @@
 .container {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin-bottom: 10px;
-  padding:0%;
+  align-items: flex-start;
+  height: calc(100vh - 150px);
 }
 
 .overlay-box{
@@ -12,6 +11,12 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 
 }
 
@@ -20,14 +25,21 @@
   height: 150px;
   background-color: #1E3661;
   border-radius: 5px;
-  position: relative;
+  bottom: 50px; /* Adjust this value as needed */
+  left: 50%;
+  top: 5px; /*this is the change i did for it to go on to the top*/
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 3;
   
 }
 
-.heading {
+.h1 {
   color: white;
   position: absolute;
   font-size: xx-large;
+  font-weight: bolder;
+  padding-left: 30px;
   left: 20px; /* Adjust this value as needed */
   top: 20px; /* Adjust this value as needed */
 }
@@ -38,6 +50,8 @@
   align-items: center;
   margin-top: 50px;
   margin-right: 150px;
+  margin-bottom: 200px;
+  width: 1000px;
 }
 
 .appstore-button,
@@ -66,6 +80,16 @@
 
 
 @media (max-width: 600px) {
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 150px);
+    padding-left: 10px;
+  }
+
   .rounded-rectangle {
     max-width: 550px;
     background-size: 100% 100%;
@@ -73,6 +97,10 @@
     margin-bottom: 20px;
     position: relative;
     height: 160px;
+    transform: translateX(-40%);
+    position: absolute;
+    z-index: 3;
+    top: 0px;
     background-image: url('../images/mobileRRBg.png'); /* Add this line to set the background image */
 
   }
@@ -93,7 +121,8 @@
     right: 10px; /* Adjust this value as needed */
     margin-left: 100px;
     margin-top: 50px;
-    margin-right: 150px;
+    margin-right: 230px;
+    margin-bottom: 10px;
   }
 
   .appstore-button,

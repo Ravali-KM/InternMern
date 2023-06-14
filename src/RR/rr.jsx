@@ -9,13 +9,13 @@ const RoundedRectangle = () => {
   return (
     <div className="container" class='overlay-box'>
       <div className="rounded-rectangle" style={{ backgroundImage: `url(${RRBg})` }}>
-      <h1 className="heading">Book Our Services By<br></br>Downloading Apps</h1>
+      <h1 className="h1">Book Our Services By<br></br>Downloading Apps</h1>
       <div className="button-container">
           <button className="appstore-button">
-            <img src={AppStore} alt="App Store" /> Apple Store
+            <img src={AppStore} alt="App Store" /> Apple  Store
           </button>
           <button className="playstore-button">
-            <img src={PlayStore} alt="Play Store" /> Play Store
+            <img src={PlayStore} alt="Play Store" /> Play  Store
           </button>
         </div>
       </div>
@@ -23,4 +23,4 @@ const RoundedRectangle = () => {
   );
 };
 
-export default RoundedRectangle;  
+export default RoundedRectangle;

@@ -24,11 +24,13 @@ function App() {
       <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%' }}>
         <Componentfour/>
       </div>
-      <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
-        <RR/>
-      </div>
-      <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
-        <Footer/>
+      <div className='OverlayContainer'>
+        <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
+          <RR/>
+        </div>
+        <div className="component" style={{ marginBottom: '0%',marginRight:'0%', marginLeft: '0%', padding:'0%'}}>
+          <Footer/>
+        </div>
       </div>
     </div>
   </div>

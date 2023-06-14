@@ -8,6 +8,11 @@
   height:100%;
 }
 
+.OverlayContainer {
+  position: relative;
+  z-index: 1;
+}
+
 .container {
   display: flex;
   flex-direction: column;
